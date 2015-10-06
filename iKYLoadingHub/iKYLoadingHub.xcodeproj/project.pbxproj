@@ -15,6 +15,8 @@
 		E41CFA661BC4030E003DC6F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41CFA651BC4030E003DC6F8 /* Images.xcassets */; };
 		E41CFA691BC4030E003DC6F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E41CFA671BC4030E003DC6F8 /* LaunchScreen.xib */; };
 		E41CFA751BC4030E003DC6F8 /* iKYLoadingHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E41CFA741BC4030E003DC6F8 /* iKYLoadingHubTests.m */; };
+		E41CFA811BC4038B003DC6F8 /* iKYLoadingHubView.m in Sources */ = {isa = PBXBuildFile; fileRef = E41CFA801BC4038B003DC6F8 /* iKYLoadingHubView.m */; };
+		E48FDE681BC41C94007B9094 /* 001.png in Resources */ = {isa = PBXBuildFile; fileRef = E48FDE671BC41C94007B9094 /* 001.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,9 @@
 		E41CFA6E1BC4030E003DC6F8 /* iKYLoadingHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iKYLoadingHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41CFA731BC4030E003DC6F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E41CFA741BC4030E003DC6F8 /* iKYLoadingHubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iKYLoadingHubTests.m; sourceTree = "<group>"; };
+		E41CFA7F1BC4038B003DC6F8 /* iKYLoadingHubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iKYLoadingHubView.h; sourceTree = "<group>"; };
+		E41CFA801BC4038B003DC6F8 /* iKYLoadingHubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iKYLoadingHubView.m; sourceTree = "<group>"; };
+		E48FDE671BC41C94007B9094 /* 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 001.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +88,14 @@
 		E41CFA541BC4030E003DC6F8 /* iKYLoadingHub */ = {
 			isa = PBXGroup;
 			children = (
+				E41CFA7E1BC4035F003DC6F8 /* iKYLoadingHubView */,
 				E41CFA591BC4030E003DC6F8 /* AppDelegate.h */,
 				E41CFA5A1BC4030E003DC6F8 /* AppDelegate.m */,
 				E41CFA5F1BC4030E003DC6F8 /* ViewController.h */,
 				E41CFA601BC4030E003DC6F8 /* ViewController.m */,
 				E41CFA621BC4030E003DC6F8 /* Main.storyboard */,
 				E41CFA651BC4030E003DC6F8 /* Images.xcassets */,
+				E48FDE671BC41C94007B9094 /* 001.png */,
 				E41CFA671BC4030E003DC6F8 /* LaunchScreen.xib */,
 				E41CFA5C1BC4030E003DC6F8 /* iKYLoadingHub.xcdatamodeld */,
 				E41CFA551BC4030E003DC6F8 /* Supporting Files */,
@@ -120,6 +127,15 @@
 				E41CFA731BC4030E003DC6F8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E41CFA7E1BC4035F003DC6F8 /* iKYLoadingHubView */ = {
+			isa = PBXGroup;
+			children = (
+				E41CFA7F1BC4038B003DC6F8 /* iKYLoadingHubView.h */,
+				E41CFA801BC4038B003DC6F8 /* iKYLoadingHubView.m */,
+			);
+			name = iKYLoadingHubView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +221,7 @@
 				E41CFA641BC4030E003DC6F8 /* Main.storyboard in Resources */,
 				E41CFA691BC4030E003DC6F8 /* LaunchScreen.xib in Resources */,
 				E41CFA661BC4030E003DC6F8 /* Images.xcassets in Resources */,
+				E48FDE681BC41C94007B9094 /* 001.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E41CFA811BC4038B003DC6F8 /* iKYLoadingHubView.m in Sources */,
 				E41CFA5B1BC4030E003DC6F8 /* AppDelegate.m in Sources */,
 				E41CFA581BC4030E003DC6F8 /* main.m in Sources */,
 				E41CFA611BC4030E003DC6F8 /* ViewController.m in Sources */,
@@ -422,6 +440,7 @@
 				E41CFA7A1BC4030E003DC6F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E41CFA7B1BC4030E003DC6F8 /* Build configuration list for PBXNativeTarget "iKYLoadingHubTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +449,7 @@
 				E41CFA7D1BC4030E003DC6F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

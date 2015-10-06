@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "iKYLoadingHubView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    iKYLoadingHubView *loadingHubView = [[iKYLoadingHubView alloc] initWithFrame:CGRectMake(85, 80, 150, 150)];
+    [self.view addSubview:loadingHubView];
+    [loadingHubView showHub];
 }
 
 - (void)didReceiveMemoryWarning {
