@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E41CFA581BC4030E003DC6F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E41CFA571BC4030E003DC6F8 /* main.m */; };
+		E41CFA5B1BC4030E003DC6F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E41CFA5A1BC4030E003DC6F8 /* AppDelegate.m */; };
+		E41CFA5E1BC4030E003DC6F8 /* iKYLoadingHub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E41CFA5C1BC4030E003DC6F8 /* iKYLoadingHub.xcdatamodeld */; };
+		E41CFA611BC4030E003DC6F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41CFA601BC4030E003DC6F8 /* ViewController.m */; };
+		E41CFA641BC4030E003DC6F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41CFA621BC4030E003DC6F8 /* Main.storyboard */; };
+		E41CFA661BC4030E003DC6F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41CFA651BC4030E003DC6F8 /* Images.xcassets */; };
+		E41CFA691BC4030E003DC6F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E41CFA671BC4030E003DC6F8 /* LaunchScreen.xib */; };
+		E41CFA751BC4030E003DC6F8 /* iKYLoadingHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E41CFA741BC4030E003DC6F8 /* iKYLoadingHubTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E41CFA6F1BC4030E003DC6F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E41CFA4A1BC4030E003DC6F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E41CFA511BC4030E003DC6F8;
+			remoteInfo = iKYLoadingHub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E41CFA521BC4030E003DC6F8 /* iKYLoadingHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKYLoadingHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41CFA561BC4030E003DC6F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E41CFA571BC4030E003DC6F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E41CFA591BC4030E003DC6F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E41CFA5A1BC4030E003DC6F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E41CFA5D1BC4030E003DC6F8 /* iKYLoadingHub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iKYLoadingHub.xcdatamodel; sourceTree = "<group>"; };
+		E41CFA5F1BC4030E003DC6F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E41CFA601BC4030E003DC6F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E41CFA631BC4030E003DC6F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E41CFA651BC4030E003DC6F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E41CFA681BC4030E003DC6F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E41CFA6E1BC4030E003DC6F8 /* iKYLoadingHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iKYLoadingHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41CFA731BC4030E003DC6F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E41CFA741BC4030E003DC6F8 /* iKYLoadingHubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iKYLoadingHubTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E41CFA4F1BC4030E003DC6F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E41CFA6B1BC4030E003DC6F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E41CFA491BC4030E003DC6F8 = {
+			isa = PBXGroup;
+			children = (
+				E41CFA541BC4030E003DC6F8 /* iKYLoadingHub */,
+				E41CFA711BC4030E003DC6F8 /* iKYLoadingHubTests */,
+				E41CFA531BC4030E003DC6F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E41CFA531BC4030E003DC6F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E41CFA521BC4030E003DC6F8 /* iKYLoadingHub.app */,
+				E41CFA6E1BC4030E003DC6F8 /* iKYLoadingHubTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E41CFA541BC4030E003DC6F8 /* iKYLoadingHub */ = {
+			isa = PBXGroup;
+			children = (
+				E41CFA591BC4030E003DC6F8 /* AppDelegate.h */,
+				E41CFA5A1BC4030E003DC6F8 /* AppDelegate.m */,
+				E41CFA5F1BC4030E003DC6F8 /* ViewController.h */,
+				E41CFA601BC4030E003DC6F8 /* ViewController.m */,
+				E41CFA621BC4030E003DC6F8 /* Main.storyboard */,
+				E41CFA651BC4030E003DC6F8 /* Images.xcassets */,
+				E41CFA671BC4030E003DC6F8 /* LaunchScreen.xib */,
+				E41CFA5C1BC4030E003DC6F8 /* iKYLoadingHub.xcdatamodeld */,
+				E41CFA551BC4030E003DC6F8 /* Supporting Files */,
+			);
+			path = iKYLoadingHub;
+			sourceTree = "<group>";
+		};
+		E41CFA551BC4030E003DC6F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E41CFA561BC4030E003DC6F8 /* Info.plist */,
+				E41CFA571BC4030E003DC6F8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E41CFA711BC4030E003DC6F8 /* iKYLoadingHubTests */ = {
+			isa = PBXGroup;
+			children = (
+				E41CFA741BC4030E003DC6F8 /* iKYLoadingHubTests.m */,
+				E41CFA721BC4030E003DC6F8 /* Supporting Files */,
+			);
+			path = iKYLoadingHubTests;
+			sourceTree = "<group>";
+		};
+		E41CFA721BC4030E003DC6F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E41CFA731BC4030E003DC6F8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E41CFA511BC4030E003DC6F8 /* iKYLoadingHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E41CFA781BC4030E003DC6F8 /* Build configuration list for PBXNativeTarget "iKYLoadingHub" */;
+			buildPhases = (
+				E41CFA4E1BC4030E003DC6F8 /* Sources */,
+				E41CFA4F1BC4030E003DC6F8 /* Frameworks */,
+				E41CFA501BC4030E003DC6F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iKYLoadingHub;
+			productName = iKYLoadingHub;
+			productReference = E41CFA521BC4030E003DC6F8 /* iKYLoadingHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E41CFA6D1BC4030E003DC6F8 /* iKYLoadingHubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E41CFA7B1BC4030E003DC6F8 /* Build configuration list for PBXNativeTarget "iKYLoadingHubTests" */;
+			buildPhases = (
+				E41CFA6A1BC4030E003DC6F8 /* Sources */,
+				E41CFA6B1BC4030E003DC6F8 /* Frameworks */,
+				E41CFA6C1BC4030E003DC6F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E41CFA701BC4030E003DC6F8 /* PBXTargetDependency */,
+			);
+			name = iKYLoadingHubTests;
+			productName = iKYLoadingHubTests;
+			productReference = E41CFA6E1BC4030E003DC6F8 /* iKYLoadingHubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E41CFA4A1BC4030E003DC6F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Kingsly;
+				TargetAttributes = {
+					E41CFA511BC4030E003DC6F8 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					E41CFA6D1BC4030E003DC6F8 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = E41CFA511BC4030E003DC6F8;
+					};
+				};
+			};
+			buildConfigurationList = E41CFA4D1BC4030E003DC6F8 /* Build configuration list for PBXProject "iKYLoadingHub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E41CFA491BC4030E003DC6F8;
+			productRefGroup = E41CFA531BC4030E003DC6F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E41CFA511BC4030E003DC6F8 /* iKYLoadingHub */,
+				E41CFA6D1BC4030E003DC6F8 /* iKYLoadingHubTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E41CFA501BC4030E003DC6F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E41CFA641BC4030E003DC6F8 /* Main.storyboard in Resources */,
+				E41CFA691BC4030E003DC6F8 /* LaunchScreen.xib in Resources */,
+				E41CFA661BC4030E003DC6F8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E41CFA6C1BC4030E003DC6F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E41CFA4E1BC4030E003DC6F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E41CFA5B1BC4030E003DC6F8 /* AppDelegate.m in Sources */,
+				E41CFA581BC4030E003DC6F8 /* main.m in Sources */,
+				E41CFA611BC4030E003DC6F8 /* ViewController.m in Sources */,
+				E41CFA5E1BC4030E003DC6F8 /* iKYLoadingHub.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E41CFA6A1BC4030E003DC6F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E41CFA751BC4030E003DC6F8 /* iKYLoadingHubTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E41CFA701BC4030E003DC6F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E41CFA511BC4030E003DC6F8 /* iKYLoadingHub */;
+			targetProxy = E41CFA6F1BC4030E003DC6F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E41CFA621BC4030E003DC6F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E41CFA631BC4030E003DC6F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E41CFA671BC4030E003DC6F8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E41CFA681BC4030E003DC6F8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E41CFA761BC4030E003DC6F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E41CFA771BC4030E003DC6F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E41CFA791BC4030E003DC6F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iKYLoadingHub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E41CFA7A1BC4030E003DC6F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iKYLoadingHub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E41CFA7C1BC4030E003DC6F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iKYLoadingHubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iKYLoadingHub.app/iKYLoadingHub";
+			};
+			name = Debug;
+		};
+		E41CFA7D1BC4030E003DC6F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iKYLoadingHubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iKYLoadingHub.app/iKYLoadingHub";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E41CFA4D1BC4030E003DC6F8 /* Build configuration list for PBXProject "iKYLoadingHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E41CFA761BC4030E003DC6F8 /* Debug */,
+				E41CFA771BC4030E003DC6F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E41CFA781BC4030E003DC6F8 /* Build configuration list for PBXNativeTarget "iKYLoadingHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E41CFA791BC4030E003DC6F8 /* Debug */,
+				E41CFA7A1BC4030E003DC6F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E41CFA7B1BC4030E003DC6F8 /* Build configuration list for PBXNativeTarget "iKYLoadingHubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E41CFA7C1BC4030E003DC6F8 /* Debug */,
+				E41CFA7D1BC4030E003DC6F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E41CFA5C1BC4030E003DC6F8 /* iKYLoadingHub.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E41CFA5D1BC4030E003DC6F8 /* iKYLoadingHub.xcdatamodel */,
+			);
+			currentVersion = E41CFA5D1BC4030E003DC6F8 /* iKYLoadingHub.xcdatamodel */;
+			path = iKYLoadingHub.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E41CFA4A1BC4030E003DC6F8 /* Project object */;
+}
